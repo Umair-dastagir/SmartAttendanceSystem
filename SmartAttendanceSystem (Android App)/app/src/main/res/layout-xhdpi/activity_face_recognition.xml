@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FACE RECOGNITION"
+        android:textSize="21sp"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"  />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        android:orientation="vertical"
+        android:background="@drawable/rec_gradient_exit">
+        <Button
+            android:id="@+id/btn_detect"
+            android:layout_width="280dp"
+            android:layout_height="43dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/colorYellow"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:text="Take Photo"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="OR"
+            android:textSize="20dp"
+            android:textColor="#000351"
+            android:layout_gravity="center"
+            android:layout_below="@+id/btn_detect"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txtor"/>
+        <Button
+            android:id="@+id/btn_choose"
+            android:layout_width="280dp"
+            android:layout_height="43dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/colorYellow"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:text="Choose From Gallery"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txtor"/>
+
+        <TextView
+            android:id="@+id/responseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message from the Server ..."
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/btn_choose"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020 © BUITEMS SMART ATTENDANCE SYSTEM"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000351"
+            android:textSize="12dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

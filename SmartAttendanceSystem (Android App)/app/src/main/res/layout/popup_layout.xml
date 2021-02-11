@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/popup_layout"
+    android:padding="2dp"
+    android:background="@color/colorGrey">
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buitms.edu.pk"
+        android:layout_centerInParent="true"
+        android:padding="25sp"
+        android:clickable="true"
+        android:textColor="@color/colorBlue"
+        android:textSize="17sp"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:linksClickable="true"
+        />
+
+</RelativeLayout>

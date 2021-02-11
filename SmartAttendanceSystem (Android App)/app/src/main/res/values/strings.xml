@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmartAttendanceApplication</string>
+    <string name="ok">OK</string>
+    <string name="Coursess">Smart Attendance BUITEMS</string>
+    <string name="Courses">Home</string>
+    <string name="QrScanner">Scan the QR Code</string>
+    <string name="Facerec">Verification</string>
+    <string name="Heading">Following are the courses you are enrolled in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
